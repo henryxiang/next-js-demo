@@ -1,10 +1,8 @@
-import Link from 'next/link';
+import NavBar from '../components/nav-bar';
 
 export default () => (
   <div>
-    <Link href="/about">
-      <a>About Page</a>
-    </Link>
+    <NavBar />
     <p>Hello Next.js</p>
   </div>
 )
