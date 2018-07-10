@@ -1,8 +1,7 @@
-import NavBar from '../components/nav-bar';
+import App from '../components/app';
 
 export default () => (
-  <div>
-    <NavBar />
+  <App>
     <p>Hello Next.js</p>
-  </div>
+  </App>
 )

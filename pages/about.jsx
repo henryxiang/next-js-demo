@@ -1,8 +1,8 @@
-import NavBar from '../components/nav-bar';
+import App from '../components/app';
+
 
 export default () => (
-  <div>
-    <NavBar />
+  <App>
     <p>This this the about page.</p>
-  </div>
+  </App>
 )
