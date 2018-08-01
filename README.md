@@ -255,7 +255,11 @@ export default Product;
 
 
 ### Customer Server with Express.js ###
-First, install Express.js `npm install --save express nodemon`
+First, install Express.js 
+```bash
+npm install --save express 
+npm install --save-dev nodemon
+```
 
 Update `dev` script in package.json
 ```bash
