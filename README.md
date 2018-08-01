@@ -31,7 +31,7 @@ Page navigation with Next.js can be done with 'next/link' built-in component.
 ```javascript
 // pages/about.jsx
 export default () => (
-  <p>About Page</p>
+  <p>About Us</p>
 );
 ```
 
@@ -39,8 +39,7 @@ export default () => (
 // pages/products.jsx
 export default () => (
   <div>
-    <h2>Products</h2>
-
+    <h3>Our Products</h3>
   </div>
 );
 ```
@@ -158,7 +157,7 @@ import AppLayout from '../components/app-layout';
 
 export default () => (
   <AppLayout>
-    <p>About Page</p>
+    <p>About Us</p>
   </AppLayout>
 );
 ```
@@ -170,7 +169,7 @@ import AppLayout from '../components/app-layout';
 export default () => (
   <AppLayout>
     <div>
-      <h2>Products</h2>
+      <h3>Products</h3>
       <ul>
         <li>Product 1</li>
         <li>Product 2</li>
