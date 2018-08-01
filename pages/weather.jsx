@@ -16,7 +16,7 @@ Page.getInitialProps = async (context) => {
   const { city } = context.query
   const res = await fetch(`${url}&q=${city},us`)
   const data = await res.json()
-
+  // merged to props
   return {
     name: data.name,
     temp: data.main

@@ -1,8 +1,8 @@
-import App from '../components/app';
+import AppLayout from '../components/app-layout';
 
 
 export default () => (
-  <App>
+  <AppLayout>
     <p>This this the about page.</p>
-  </App>
+  </AppLayout>
 )

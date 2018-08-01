@@ -1,7 +1,7 @@
-import App from '../components/app';
+import AppLayout from '../components/app-layout';
 
 export default () => (
-  <App>
+  <AppLayout>
     <p>Hello Next.js</p>
-  </App>
+  </AppLayout>
 )
