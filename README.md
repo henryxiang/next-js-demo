@@ -92,7 +92,7 @@ Create a directory to hold component source files and let's name it "components"
 ```bash
 mkdir components
 ```
-* Note: The name of the component directory can be arbitrary but "components" are used by convention.
+* Note: The name of the component directory can be arbitrary but "components" is used by convention.
 
 #### NavBar Component
 ```javascript
