@@ -31,7 +31,9 @@ Page navigation with Next.js can be done with 'next/link' built-in component.
 ```javascript
 // pages/about.jsx
 export default () => (
-  <p>About Us</p>
+  <div>
+    <h3>About Us</h3>
+  </div>
 );
 ```
 
@@ -146,9 +148,16 @@ import AppLayout from '../components/app-layout';
 
 export default () => (
   <AppLayout>
-    <p>Hello Next.js</p>
+    <div>
+      <h3>Welcome</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Commodi quod quasi facere eos distinctio, corporis optio eum eaque eligendi doloremque ea, 
+        vel veniam perferendis esse quis assumenda nostrum deleniti quas.
+      </p>
+    </div>
   </AppLayout>
-);
+)
 ```
 
 ```javascript
@@ -157,7 +166,15 @@ import AppLayout from '../components/app-layout';
 
 export default () => (
   <AppLayout>
-    <p>About Us</p>
+    <div>
+      <h3>About Us</h3>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Incidunt nam dolorem at eum? Dolorum adipisci et voluptatem, 
+        excepturi expedita dicta quas perferendis, error ipsum sed harum. 
+        Non magni corporis dolore.
+      </p>
+    </div>
   </AppLayout>
 );
 ```
