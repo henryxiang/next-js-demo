@@ -421,7 +421,7 @@ export default class MyDocument extends Document {
 }
 ```
 
-#### Create `css/app.css` File
+#### Create `css/app-layout.css` File
 ```css
 div.app {
   margin: 20px;
@@ -433,7 +433,7 @@ div.app {
 #### Apply CSS styles in `app-layout.jsx`
 ```javascript
 import NavBar from './nav-bar';
-import css from '../css/app.css';
+import css from '../css/app-layout.css';
 
 const AppLayout = (props) => (
   <div className={css.app}>
