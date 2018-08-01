@@ -291,7 +291,7 @@ Start server by running `npm run dev`.
 
 
 ### Data Fetching ###
-Install `isomorphic-unfetch`, which is a HTTP client for both server and client side.
+Install `isomorphic-unfetch`, which is an HTTP client for both server and client side.
 ```bash
 npm install --save isomorphic-unfetch
 ```
@@ -421,3 +421,16 @@ const AppLayout = (props) => (
 
 export default AppLayout
 ```
+
+
+### Build and Deployment
+Update the `scripts` attribute of `package.json` as following
+```json
+  "scripts": {
+    "dev": "nodemon server.js",
+    "build": "next build",
+    "start": "next start"
+  },
+```
+
+To build project, run `npm run build`; to run in production mode, `npm start`.
