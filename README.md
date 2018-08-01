@@ -255,11 +255,11 @@ export default Product;
 
 
 ### Customer Server with Express.js ###
-First, install Express.js `npm install --save express`
+First, install Express.js `npm install --save express nodemon`
 
 Update `dev` script in package.json
 ```bash
-perl -i -pe 's/"dev":.+$/"dev": "node server.js"/' package.json
+perl -i -pe 's/"dev":.+$/"dev": "nodemon server.js"/' package.json
 ```
 
 Create `server.js` as following
