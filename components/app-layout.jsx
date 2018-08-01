@@ -1,5 +1,5 @@
 import NavBar from './nav-bar';
-import css from '../css/app.css';
+import css from '../css/app-layout.css';
 
 // const appStyle = {
 //   margin: 20,

@@ -427,6 +427,7 @@ div.app {
   margin: 20px;
   padding: 20px;
   border: 1px solid #DDD;
+  border-radius: 5px;
 }
 ```
 
