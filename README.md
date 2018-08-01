@@ -119,7 +119,7 @@ export default NavBar;
 
 #### Layout Component
 ```javascript
-// components/app-layout-layout.jsx
+// components/app-layout.jsx
 import NavBar from './nav-bar';
 
 const appStyle = {
@@ -140,7 +140,7 @@ export default AppLayout;
 #### Refactoring Pages to Use AppLayout Component
 ```javascript
 // pages/index.jsx
-import AppLayout from '../components/app-layout-layout';
+import AppLayout from '../components/app-layout';
 
 export default () => (
   <AppLayout>
@@ -151,7 +151,7 @@ export default () => (
 
 ```javascript
 // pages/about.jsx
-import AppLayout from '../components/app-layout-layout';
+import AppLayout from '../components/app-layout';
 
 export default () => (
   <AppLayout>
@@ -162,7 +162,7 @@ export default () => (
 
 ```javascript
 // pages/products.jsx
-import AppLayout from '../components/app-layout-layout';
+import AppLayout from '../components/app-layout';
 
 export default () => (
   <AppLayout>
@@ -187,7 +187,7 @@ Pattern: a listing page with links to details of list items
 #### Dynamic Page - Listing
 ```javascript
 // pages/products.jsx
-import AppLayout from '../components/app-layout-layout';
+import AppLayout from '../components/app-layout';
 import Link from 'next/link';
 
 const ListItem = (props) => (
@@ -218,7 +218,7 @@ export default () => (
 ```javascript
 // pages/product.jsx
 import { withRouter } from 'next/router'
-import AppLayout from '../components/app-layout-layout';
+import AppLayout from '../components/app-layout';
 
 const Product = withRouter((props) => (
   <AppLayout>
@@ -301,7 +301,7 @@ npm install --save isomorphic-unfetch
 // pages/products.jsx
 import Link from 'next/link';
 import fetch from 'isomorphic-unfetch';
-import AppLayout from '../components/app-layout-layout';
+import AppLayout from '../components/app-layout';
 
 const url = 'http://localhost:3000/api/products';
 
@@ -337,7 +337,7 @@ export default Page;
 ```javascript
 // pages/product.jsx
 import fetch from 'isomorphic-unfetch';
-import AppLayout from '../components/app-layout-layout';
+import AppLayout from '../components/app-layout';
 
 const url = 'http://localhost:3000/api/product';
 
