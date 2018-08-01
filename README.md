@@ -258,7 +258,7 @@ export default Product;
 First, install Express.js 
 ```bash
 npm install --save express 
-npm install --save-dev nodemon
+npm install --save-dev nodemon faker
 ```
 
 Update `dev` script in package.json
