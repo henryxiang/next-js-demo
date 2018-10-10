@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js",
+    "debug": "nodemon --inspect server.js",
     "build": "next build",
     "start": "next start",
     "presentation": "reveal-md ./presentation/index.md"
